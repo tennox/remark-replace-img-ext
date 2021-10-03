@@ -1,16 +1,16 @@
-[![Lint and Test](https://github.com/Pondorasti/remark-img-links/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/Pondorasti/remark-img-links/actions/workflows/main.yaml)
-[![NPM](https://img.shields.io/npm/v/@pondorasti/remark-img-links.svg)](https://www.npmjs.com/package/@pondorasti/remark-img-links)
-[![NPM Downloads](https://img.shields.io/npm/dm/@pondorasti/remark-img-links)](https://www.npmjs.com/package/@pondorasti/remark-img-links)
-[![Size](https://img.shields.io/bundlephobia/minzip/@pondorasti/remark-img-links.svg)](https://bundlephobia.com/result?p=@pondorasti/remark-img-links)
+[![Lint and Test](https://github.com/Pondorasti/remark-replace-img-ext/actions/workflows/main.yaml/badge.svg?branch=main)](https://github.com/Pondorasti/remark-replace-img-ext/actions/workflows/main.yaml)
+[![NPM](https://img.shields.io/npm/v/@pondorasti/remark-replace-img-ext.svg)](https://www.npmjs.com/package/@pondorasti/remark-replace-img-ext)
+[![NPM Downloads](https://img.shields.io/npm/dm/@pondorasti/remark-replace-img-ext)](https://www.npmjs.com/package/@pondorasti/remark-replace-img-ext)
+[![Size](https://img.shields.io/bundlephobia/minzip/@pondorasti/remark-replace-img-ext.svg)](https://bundlephobia.com/result?p=@pondorasti/remark-replace-img-ext)
 
-# remark-img-links
+# remark-replace-img-ext
 
 [**remark**](https://github.com/remarkjs/remark) plugin to prefix relative image paths with an absolute URL.
 
 ## Installation
 
 ```
-npm install @pondorasti/remark-img-links
+npm install @pondorasti/remark-replace-img-ext
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ npm install @pondorasti/remark-img-links
 ```js
 const html = require("remark-html")
 const remark = require("remark")
-const imgLinks = require("@pondorasti/remark-img-links")
+const imgLinks = require("@pondorasti/remark-replace-img-ext")
 
 remark()
   .use(imgLinks, { absolutePath: "https://cdn.domain.com/" })
